@@ -3,3 +3,4 @@ This repository provides a collection of tools and scripts designed to assist in
 
 Tools include:
 
+Sequence alignment
