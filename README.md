@@ -15,21 +15,21 @@ This script provides a set of tools for DNA sequence analysis. It is designed to
 
 ## Example usage
 
-**Count Records**
-print("Count Records")
-dna_tools = dna_tool_sets("../data/example.fasta")  # Replace with your file path
-dna_tools.count_records()  # Outputs the number of records in the file
+1. **Count Records**
+  print("Count Records")
+  dna_tools = dna_tool_sets("../data/example.fasta")  # Replace with your file path
+  dna_tools.count_records()  # Outputs the number of records in the file
 
-**Check Sequence Lengths**
-print("Check Sequence Lengths")
-dna_tools.check_length()  # Outputs the length of the longest and shortest sequences
+2. **Check Sequence Lengths**
+  print("Check Sequence Lengths")
+  dna_tools.check_length()  # Outputs the length of the longest and shortest sequences
 
-**Identify ORFs**
-print("Identify ORFs")
-dna_tools.orf_identifier()  # Outputs ORFs' start positions and lengths for each sequence
+3. **Identify ORFs**
+  print("Identify ORFs")
+  dna_tools.orf_identifier()  # Outputs ORFs' start positions and lengths for each sequence
 
-**Find Repeats**
-print("\Find Repeats")
-dna_sequence = "ATGATGATG"  # Replace with your DNA sequence
-repeats = dna_tools.find_repeats(dna_sequence, 3)  # Finds repeats of length 3
-print(repeats)  # Outputs a dictionary of repeated sequences and their counts
+4.**Find Repeats**
+  print("\Find Repeats")
+  dna_sequence = "ATGATGATG"  # Replace with your DNA sequence
+  repeats = dna_tools.find_repeats(dna_sequence, 3)  # Finds repeats of length 3
+  print(repeats)  # Outputs a dictionary of repeated sequences and their counts
