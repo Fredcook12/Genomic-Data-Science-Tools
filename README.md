@@ -13,7 +13,7 @@ dna_tools = dna_tool_sets("../data/example.fasta")
 
 Then call class methods, e.g., to check the count records:
 
-length = dna_tools.count_records()
+count_records = dna_tools.count_records()
 
 1. **Count Records**: Count the number of DNA sequences in a multi-FASTA file.
 2. **Check Sequence Lengths**: Determine the lengths of sequences, including the longest and shortest.
@@ -25,7 +25,6 @@ length = dna_tools.count_records()
 
 1. **Count Records**
   print("Count Records")
-  dna_tools = dna_tool_sets("../data/example.fasta")  # Replace with your file path
   dna_tools.count_records()  # Outputs the number of records in the file
 
 2. **Check Sequence Lengths**
