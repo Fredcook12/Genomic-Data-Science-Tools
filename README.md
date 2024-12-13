@@ -3,7 +3,7 @@ This repository provides a collection of tools and scripts designed to assist in
 
 # DNA Tools for Sequence Analysis
 
-This script provides a set of tools for DNA sequence analysis. It is designed to work with DNA sequences in FASTA format and offers functionality to analyse sequence lengths, identify open reading frames (ORFs), and detect repeated sequences.
+This script provides a set of tools for DNA sequence analysis. It is designed to work with DNA sequences in FASTA format and offers functionality to count records, analyse sequence lengths, identify open reading frames (ORFs), and detect repeated sequences.
 
 ## Features
 
