@@ -1,5 +1,5 @@
 # Genomic-Data-Science-Tools
-This repository provides a collection of tools and scripts designed to assist in analysing genomic data.
+This repository provides a collection of tools designed to assist in analysing genomic data.
 
 # DNA Tools for Sequence Analysis
 
